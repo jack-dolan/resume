@@ -1,0 +1,137 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+%%%%%%%_SETUP_%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+
+%------------------------------------------------------------------------- 
+
+\documentclass{article} 
+\usepackage{titlesec} 
+\usepackage{titling} 
+\usepackage[margin=0.8in]{geometry}
+ 
+\titleformat{\section}{\Large\bfseries}{}{0em}{}[\titlerule] 
+
+\titleformat{\subsection}[runin] 
+{\bfseries}{}{0em}{} 
+\titlespacing{\subsection} 
+{0.2em}{0.4em}{0.5em} 
+
+\titleformat{\subsubsection}[runin]
+{\bfseries}{}{0em}{}
+ 
+%------------------------------------------------------------------------- 
+%------------------MAKETITLE RE-DEFINITION-------------------------------- 
+%------------------------------------------------------------------------- 
+
+\renewcommand{\maketitle}{ 
+{\huge\bfseries\theauthor}\hfill dolan.jack.355@gmail.com 
+
+\vspace{0.2em} 
+
+Los Angeles, CA \hfill (203) 560-1717 $|$ github.com/jack-dolan
+}
+
+%------------------------------------------------------------------------- 
+%------------------BULLET SIZE RE-DEFINITION------------------------------ 
+%------------------------------------------------------------------------- 
+
+\renewcommand{\labelitemi}{$\vcenter{\hbox{\tiny$\bullet$}}$} 
+
+%------------------------------------------------------------------------- 
+%------------------BEGIN DOC---------------------------------------------- 
+%------------------------------------------------------------------------- 
+
+\begin{document} 
+\title{R\'esum\'e} 
+\author{Jack Dolan} 
+\maketitle
+\pagenumbering{gobble}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+%%%%%%%_CONTENT_%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+%------------------------------------------------------------------------- 
+%------------------SKILLS & QUALS----------------------------------------- 
+%------------------------------------------------------------------------- 
+
+\section{Professional Skills and Qualifications} \begin{itemize}
+    \itemsep0em
+    \item \textbf{Languages:} Python, C, C++, SQL, HTML, CSS, JavaScript
+    \item \textbf{Tools:} Windows, Linux, Git, DigitalOcean, Heroku, Docker
+    \item US Top Secret Clearance
+    \item Thorough problem-solving skills $|$ Effective and professional communication $|$ Eager to learn \end{itemize} 
+
+%------------------------------------------------------------------------- 
+%------------------EDUCATION---------------------------------------------- 
+%------------------------------------------------------------------------- 
+
+\section{Education} \begin{itemize}
+    \itemsep0.2em
+    \item \textbf{Georgia Institute of Technology} \hfill Atlanta, GA\\M.S. in Computer Science; Current Cumulative GPA: 4.0\hfill \emph{Jan 2019 - May 2022}
+    \item \textbf{Boston University}\hfill Boston, MA\\B.S. in Computer Engineering; Cumulative GPA: 3.04\hfill Sep \emph{Sep 2012 - May 2016} \end{itemize} 
+
+%------------------------------------------------------------------------- 
+%------------------EXPERIENCE--------------------------------------------- 
+%------------------------------------------------------------------------- 
+
+\section{Experience} 
+\begin{itemize}
+    \itemsep0.2em
+    \item \textbf{U.S. Air Force}\hfill Los Angeles, CA\\Systems Engineering Lead Officer\hfill July 2016 - Present
+    \vspace{-\topsep} \vspace{0.2em}
+    \begin{itemize}
+        \itemsep0em
+        \item Managed \$50M military / commercial hybrid satellite communication program
+        %\item SMC/GP: Requirements management; 2-3k comments adjudicated; Joint time with Army for PGM reqs cooperatively
+        \item Government Lead for long-lead (2040) space communication experiments
+        \item Directed development of next-gen ASIC chips for GPS, incorporating warfighter requirements
+        \item Company Grade Officer of the Quarter (3Q 2017, 4Q 2018)
+    \end{itemize}
+    
+    \item \textbf{Sikorsky Aircraft}\hfill Stratford, CT\\Program Management \& Business Intern\hfill May-Aug 2014 \& May-Aug 2015
+    \vspace{-\topsep} \vspace{0.2em}
+    \begin{itemize}
+        \itemsep0em
+        \item Maintained 30k+ item bill of materials for program management team of CH-53K helicopter
+        \item Tracked and projected program budget; made allocation recommendations to division leadership
+        \item Interfaced with contractors and customers to maintain accurate delivery dates
+    \end{itemize}
+    
+    \item \textbf{U.S. Air Force ROTC}\hfill Boston, MA\\Cadet - Officer Training\hfill Sep 2012 - June 2016
+    \vspace{-\topsep} \vspace{0.2em}
+    \begin{itemize}
+        \itemsep0em
+        \item Supervised and led all ROTC courses and functions as Cadet Wing Commander
+        \item Developed and instilled leadership and team skills in myself and others
+        \item Cadet of the Year; Awarded for highest professionalism and leadership abilities (May 2016)
+        \item Academic Excellence Award (May 2013, May 2016)
+    \end{itemize} \end{itemize} 
+
+%------------------------------------------------------------------------- 
+%------------------PROJECTS=---------------------------------------------- 
+%------------------------------------------------------------------------- 
+
+\section{Projects} 
+\begin{itemize}
+    \itemsep0.2em
+    \item Reddit Bot \emph{(Python)}\hfill \emph{2018}
+    \vspace{-\topsep} \vspace{0.2em}
+    \begin{itemize}
+        \itemsep0em
+        \item Bot that translates post titles to three randomly selected languages, and then back to English
+        \item Built chat-based control mechanism via Telegram Bot API
+        \item Cloud-deployed app as a Heroku dyno
+    \end{itemize}
+    
+    \item Liquid Rocket Thrust Vectoring Firmware - Senior Capstone \emph{(C, Python)}\hfill \emph{2015-2016}
+    \vspace{-\topsep} \vspace{0.2em}
+    \begin{itemize}
+        \itemsep0em
+        \item Built and integrated multi-threaded firmware to handle I/O telemetry data and control two actuators to gimbal rocket engine
+        \item Python socket programming to interface firmware with rocket’s sensors via Ethernet
+        \item Awarded Boston University Electrical and Computer Engineering Design Excellence award
+    \end{itemize} \end{itemize} 
+
+%-------------------------------------------------------------------------
+
+\end{document}
