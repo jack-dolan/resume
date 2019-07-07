@@ -1,13 +1,5 @@
 #Résumé 
 
-<<<<<<< HEAD
-=======
----
-author: Jack Dolan
-
-title: Résumé
----
->>>>>>> d40c70eb82776b546bb390c4b036ddbad1d63ded
 
 Professional Skills and Qualifications
 ======================================
