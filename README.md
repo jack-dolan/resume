@@ -2,6 +2,7 @@
 
 ---
 author: Jack Dolan
+
 title: Résumé
 ---
 
