@@ -2,7 +2,7 @@
 
 # Run this each time resume.tex gets updated to generate new resume.pdf and README.md with new date & resume
 
-echo '# Résumé \n\n' > './README.md'
+echo '# Jack Dolan - Résumé \n\n' > './README.md'
 
 date '+%Y-%m-%d' >> './README.md'
 
