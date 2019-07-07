@@ -1,8 +1,7 @@
 # Resume
 
 ---
-author:
-- Jack Dolan
+author: Jack Dolan
 title: Résumé
 ---
 
