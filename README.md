@@ -1,7 +1,7 @@
 # Jack Dolan - Résumé 
 
 
-2019-07-07
+2019-07-15
 
 
 
@@ -14,7 +14,7 @@ Professional Skills and Qualifications
 
 -   US Top Secret Clearance
 
--   Thorough problem-solving skills | Effective and professional communication | Eager to learn
+-   Thorough problem-solving skills | Effective and professional communication | Eager and quick to learn
 
 Education
 =========
@@ -23,7 +23,7 @@ Education
     M.S. in Computer Science; Current Cumulative GPA: 4.0*Jan 2019 - May 2022*
 
 -   **Boston University**Boston, MA
-    B.S. in Computer Engineering; Cumulative GPA: 3.04Sep *Sep 2012 - May 2016*
+    B.S. in Computer Engineering; Cumulative GPA: 3.04*Sep 2012 - May 2016*
 
 Experience
 ==========
@@ -31,7 +31,7 @@ Experience
 -   **U.S. Air Force**Los Angeles, CA
     Systems Engineering Lead OfficerJuly 2016 - Present
 
-    -   Managed $50M military / commercial hybrid satellite communication program
+    -   Managed $50M military / commercial hybrid satellite data communication program
 
     -   Government Lead for long-lead (2040) space communication experiments
 
