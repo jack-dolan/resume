@@ -12,7 +12,7 @@ Professional Skills and Qualifications
 
 -   **Tools:** Windows, Linux, Git, DigitalOcean, Heroku, Docker
 
--   Schedule and risk management, Agile and Waterfall, Motivational leadership
+-   **Program Management:** Schedule and risk management, Agile and Waterfall, Motivational leadership
 
 -   US Top Secret Clearance
 
