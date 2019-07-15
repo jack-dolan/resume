@@ -12,6 +12,8 @@ Professional Skills and Qualifications
 
 -   **Tools:** Windows, Linux, Git, DigitalOcean, Heroku, Docker
 
+-   Schedule and risk management, Agile and Waterfall, Motivational leadership
+
 -   US Top Secret Clearance
 
 -   Thorough problem-solving skills | Effective and professional communication | Eager and quick to learn
