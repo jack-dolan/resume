@@ -7,7 +7,11 @@
 \documentclass{article} 
 \usepackage{titlesec} 
 \usepackage{titling} 
+\usepackage{amsmath} 
 \usepackage[margin=0.65in]{geometry}
+
+\renewcommand{\labelitemii}{$\circ$}
+\renewcommand{\labelitemiii}{$\diamond$}
  
 \titleformat{\section}{\Large\bfseries}{}{0em}{}[\titlerule] 
 
@@ -15,6 +19,8 @@
 {\bfseries}{}{0em}{} 
 \titlespacing{\subsection} 
 {0.2em}{0.4em}{0.5em} 
+\titlespacing{\section} 
+{0.2em}{0.8em}{0.8em} 
 
 \titleformat{\subsubsection}[runin]
 {\bfseries}{}{0em}{}
@@ -24,11 +30,11 @@
 %------------------------------------------------------------------------- 
 
 \renewcommand{\maketitle}{ 
-{\huge\bfseries\theauthor}\hfill dolan.jack.h@gmail.com 
+{\huge\bfseries\theauthor}\hfill jack@dolanjack.com 
 
 \vspace{0.2em} 
 
-Los Angeles, CA \hfill (203) 560-1717 $|$ github.com/jack-dolan
+Boston, MA \hfill (203) 560-1717 $|$ github.com/jack-dolan
 }
 
 %------------------------------------------------------------------------- 
@@ -51,25 +57,20 @@ Los Angeles, CA \hfill (203) 560-1717 $|$ github.com/jack-dolan
 %%%%%%%_CONTENT_%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 %------------------------------------------------------------------------- 
-%------------------SKILLS & QUALS----------------------------------------- 
+%------------------SUMMARY------------------------------------------------ 
 %------------------------------------------------------------------------- 
 
-\section{Professional Skills and Qualifications} \begin{itemize}
+\section{Summary} 
+Software Engineer and Product Manager with a 7-year track record of driving innovation and results:
+    \begin{itemize}
     \itemsep0em
-    \item \textbf{Languages:} Python, C, C++, SQL, HTML, CSS, JavaScript
-    \item \textbf{Tools:} Windows, Linux, Git, DigitalOcean, Heroku, Docker
-    \item \textbf{Program Management:} Schedule and risk management, Agile and Waterfall, Motivational leadership
-    \item US Top Secret Clearance
-    \item Thorough problem-solving skills $|$ Effective and professional communication $|$ Eager and quick to learn \end{itemize} 
-
-%------------------------------------------------------------------------- 
-%------------------EDUCATION---------------------------------------------- 
-%------------------------------------------------------------------------- 
-
-\section{Education} \begin{itemize}
-    \itemsep0.2em
-    \item \textbf{Georgia Institute of Technology} \hfill Atlanta, GA\\M.S. in Computer Science; Current Cumulative GPA: 4.0\hfill \emph{Jan 2019 - May 2022}
-    \item \textbf{Boston University}\hfill Boston, MA\\B.S. in Computer Engineering; Cumulative GPA: 3.04\hfill \emph{Sep 2012 - May 2016} \end{itemize} 
+    \item \ Led development of two critical air-warfighting applications used 24/7 globally, improved app load time by $>$10x
+    \item \ Tech lead in hybrid military/civilian/contractor software org, drove org’s first K8s on-board, improved practices
+    \item \ Director of 10-member technical team to develop standards for \$1.8B next generation of military GPS receivers
+    \newline
+    \item \textbf{Skills:} Python \text{\textbar} Java \text{\textbar} Spring \text{\textbar} TypeScript \text{\textbar} React \text{\textbar} TensorFlow \text{\textbar} NumPy \text{\textbar} Scikit-Learn \text{\textbar} C++ \text{\textbar} MATLAB \text{\textbar} Go
+    \item \textbf{Utilities:} Git \text{\textbar} Docker \text{\textbar} Kubernetes \text{\textbar} SQL \text{\textbar} Tableau \text{\textbar} Windows \& Unix \text{\textbar} GitLab CI/CD \text{\textbar} AWS \text{\textbar} Heroku
+    \item \textbf{Security Clearance:} US Top Secret, SCI Eligible \end{itemize} 
 
 %------------------------------------------------------------------------- 
 %------------------EXPERIENCE--------------------------------------------- 
@@ -78,59 +79,68 @@ Los Angeles, CA \hfill (203) 560-1717 $|$ github.com/jack-dolan
 \section{Experience} 
 \begin{itemize}
     \itemsep0.2em
-    \item \textbf{U.S. Air Force}\hfill Los Angeles, CA\\Systems Engineering Lead Officer\hfill July 2016 - Present
+    \item \textbf{Lead DevSecOps Software Engineer}, Kessel Run (U.S. Air Force), Boston, MA\hfill 06/2020 - Present \\ \emph{Directed 10-member engineering team in building software for 10K users to deprecate a \$1.6B legacy system}
     \vspace{-\topsep} \vspace{0.2em}
     \begin{itemize}
         \itemsep0em
-        \item Managed \$50M military / commercial hybrid satellite data communication program
-        %\item SMC/GP: Requirements management; 2-3k comments adjudicated; Joint time with Army for PGM reqs cooperatively
-        \item Government Lead for long-lead (2040) space communication experiments
-        \item Directed development of next-gen ASIC chips for GPS, incorporating warfighter requirements
-        \item Company Grade Officer of the Quarter (3Q 2017, 4Q 2018)
+        \item Automated event-sourced data sync across 10 deployment environments, repairing \& preventing corrupt data
+        \item Delivered tech talks to devs, proliferated strategy for maintainable s/w upgrades with blue/green deployments
+        \item Hand-picked for rapid outage response team, led to average restore time of $<$90 mins, cut down-time by 72%
     \end{itemize}
     
-    \item \textbf{Sikorsky Aircraft}\hfill Stratford, CT\\Program Management \& Business Intern\hfill May-Aug 2014 \& May-Aug 2015
+    \item \textbf{Developmental Engineering Lead Officer}, U.S. Air Force, Los Angeles Air Force Base, CA\hfill 07/2016 - 06/2020 \\ \emph{GPS Integrated Circuit and Satellite Communication Systems Engineering Lead}
     \vspace{-\topsep} \vspace{0.2em}
     \begin{itemize}
         \itemsep0em
-        \item Maintained 30k+ item bill of materials for program management team of CH-53K helicopter
-        \item Tracked and projected program budget; made allocation recommendations to division leadership
-        \item Interfaced with contractors and customers to maintain accurate delivery dates
+        \item Directed development of next-gen ASIC chips for GPS air/land/air apps, parsed stakeholder requirements
+        \item Program manager on \$50M military / commercial hybrid satellite communication enterprise effort
+        \item Government lead for long-lead (2040) \$30M high-bandwidth satellite communication experiments
     \end{itemize}
     
-    \item \textbf{U.S. Air Force ROTC}\hfill Boston, MA\\Cadet - Officer Training\hfill Sep 2012 - June 2016
+    \item \textbf{Intern}, Sikorsky Aircraft, Stratford, CT\hfill 05/2014 - 08/2014, 05/2015 - 08/2015 \\ \emph{Program Management and Business Acquisition Intern for the Sikorsky CH-53K Heavy Lift Airframe}
     \vspace{-\topsep} \vspace{0.2em}
     \begin{itemize}
         \itemsep0em
-        \item Supervised and led all ROTC courses and functions as Cadet Wing Commander
-        \item Developed and instilled leadership and team skills in myself and others
-        \item Cadet of the Year; Awarded for highest professionalism and leadership abilities (May 2016)
-        \item Academic Excellence Award (May 2013, May 2016)
+        \item Managed 30k+ item bill of materials for stakeholders of CH-53K helicopter program
+        \item Analyzed program budget, recommended allocation of funds for remainder of FY14 \& FY15 to div leadership
     \end{itemize} \end{itemize} 
 
 %------------------------------------------------------------------------- 
-%------------------PROJECTS=---------------------------------------------- 
+%------------------EDUCATION---------------------------------------------- 
 %------------------------------------------------------------------------- 
 
-\section{Projects} 
+\section{Education} \begin{itemize}
+    \itemsep0.2em
+    \item \textbf{Master of Science, Computer Science}, Specialization in Machine Learning \hfill 05/2019 - 11/2022\\Georgia Institute of Technology, Atlanta, GA, GPA: 4.0
+    \item \textbf{Bachelor of Science, Computer Engineering} \hfill 09/2012 - 05/2016\\Boston University, Boston, MA\\Simultaneously completed Air Force officer training: learned professionalism, integrity, \& consistency in leadership  \end{itemize} 
+
+%------------------------------------------------------------------------- 
+%------------------ADDITIONAL INFO=---------------------------------------------- 
+%------------------------------------------------------------------------- 
+
+\section{Additional Information} 
 \begin{itemize}
     \itemsep0.2em
-    \item Reddit Bot \emph{(Python)}\hfill \emph{2018}
+    \item \textbf{Awards: }Officer/Eng of the Year: 2021-\#1/15, 2020-\#1/15, 2019:-\#1/9; Academic Excellence: 2013, 2016
+    \item \textbf{Projects: }
     \vspace{-\topsep} \vspace{0.2em}
     \begin{itemize}
         \itemsep0em
-        \item Bot that translates post titles to three randomly selected languages, and then back to English
-        \item Built chat-based control mechanism via Telegram Bot API
-        \item Cloud-deployed app as a Heroku dyno
-    \end{itemize}
-    
-    \item Liquid Rocket Thrust Vectoring Firmware - Senior Capstone \emph{(C, Python)}\hfill \emph{2015-2016}
-    \vspace{-\topsep} \vspace{0.2em}
-    \begin{itemize}
-        \itemsep0em
-        \item Built and integrated multi-threaded firmware to handle I/O telemetry data and control two actuators to gimbal rocket engine
-        \item Python socket programming to interface firmware with rocket’s sensors via Ethernet
-        \item Awarded Boston University Electrical and Computer Engineering Design Excellence award
+        \item Reddit Bot (Python, Telegram and Google Translate APIs)
+        \vspace{-\topsep} \vspace{0.2em}
+        \begin{itemize}
+            \itemsep0em
+            \item Bot to translate posts to selected languages, then back to English, controlled via Telegram bot
+            \item Cloud-deployed app as a Heroku dyno
+        \end{itemize}
+        \item Liquid Rocket Thrust Vectoring Firmware – Senior Capstone (C, Python)
+        \vspace{-\topsep} \vspace{0.2em}
+        \begin{itemize}
+            \itemsep0em
+            \item Built/integrated multi-threaded firmware to handle I/O telemetry data and gimbal rocket engine
+            \item Python socket programming to interface firmware with rocket’s sensors via Ethernet
+            \item Awarded Boston University Electrical and Computer Engineering Design Excellence award
+        \end{itemize}
     \end{itemize} \end{itemize} 
 
 %-------------------------------------------------------------------------
