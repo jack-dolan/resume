@@ -1,16 +1,16 @@
 # Jack Dolan - Resume 
 
-2022-01-02
+2023-12-15
 
 Boston, MA  ǀ  203-560-1717  ǀ  jack@dolanjack.com  ǀ  www.linkedin.com/in/jack-dolan2 | www.github.com/jack-dolan
 
 SUMMARY
-Software Engineer and Product Manager with a 7-year track record of driving innovation and results: 
+U.S. Air Force Officer & Senior Software Engineer with an 8-year track record of driving innovation and results: 
 * Led development of two critical air-warfighting applications used 24/7 globally, improved app load time by >10x
-* Tech lead in hybrid military/civilian/contractor software org, drove org’s first K8s on-board, improved eng practices
+* Tech lead in hybrid military/civilian software org, drove org’s first Kubernetes on-board, improved practices
 * Director of 10-member technical team to develop standards for $1.8B next generation of military GPS receivers
 
-* Skills: Python | Java | Spring | TypeScript | React | TensorFlow | NumPy | Scikit-Learn | C++ | MATLAB | Go
+* Skills: Python | Java | Spring | TypeScript | React | TensorFlow | Neural Networks | Sentiment Analysis | Computer Vision | NumPy | Scikit-Learn | C++ | MATLAB | Go
 * Utilities: Git | Docker | Kubernetes | SQL | Tableau | Windows & Unix | GitLab CI/CD | AWS | Heroku
 * Security Clearance: US Top Secret, SCI Eligible
 
