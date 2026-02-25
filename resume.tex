@@ -8,7 +8,7 @@
 \usepackage{titlesec} 
 \usepackage{titling} 
 \usepackage{amsmath} 
-\usepackage[margin=0.5in]{geometry}
+\usepackage[margin=0.4in]{geometry}
 
 \renewcommand{\labelitemii}{$\circ$}
 \renewcommand{\labelitemiii}{$\diamond$}
@@ -60,14 +60,14 @@ Boston, MA \hfill (203) 560-1717 $|$ github.com/jack-dolan
 %------------------SUMMARY------------------------------------------------ 
 %------------------------------------------------------------------------- 
 
-\section{Summary} 
-Senior DevSecOps Engineer \& Engineering Manager with 8+ years in cloud-native systems and team leadership:
+\section{Summary}
+\hspace*{-0.4cm}Senior DevSecOps Engineer \& Engineering Manager; 8\verb!+! years in cloud-native systems, platform engineering, and leadership:
     \begin{itemize}
     \itemsep0em
-    \item \textbf{Languages:} Python \text{\textbar} Java \text{\textbar} TypeScript \text{\textbar} Go \text{\textbar} SQL \text{\textbar} C++
-    \item \textbf{Infrastructure:} Kubernetes \text{\textbar} Docker \text{\textbar} AWS (ECS, RDS, ElastiCache) \text{\textbar} Terraform \text{\textbar} GitLab CI/CD \text{\textbar} GitHub Actions
-    \item \textbf{ML/Data:} TensorFlow \text{\textbar} PyTorch \text{\textbar} Scikit-Learn \text{\textbar} NumPy \text{\textbar} Pandas \text{\textbar} Computer Vision \text{\textbar} NLP
-    \item \textbf{Certifications:} AWS Certified Cloud Practitioner \text{\textbar} CompTIA Security+ (SY0-701) \text{\textbar} TS/SCI Eligible Clearance \end{itemize}  
+    \item \textbf{Languages:} Python \text{\textbar} Java \text{\textbar} TypeScript \text{\textbar} Go \text{\textbar} SQL \text{\textbar} C\verb!++!
+    \item \textbf{Infrastructure:} Kubernetes \text{\textbar} Docker \text{\textbar} AWS (ECS, RDS, S3) \text{\textbar} Ansible \text{\textbar} Terraform \text{\textbar} GitLab CI/CD \text{\textbar} GitHub Actions
+    \item \textbf{ML/Data:} TensorFlow \text{\textbar} PyTorch \text{\textbar} Scikit-Learn \text{\textbar} NumPy \text{\textbar} Pandas \text{\textbar} Computer Vision \text{\textbar} NLP \text{\textbar} MLFlow \text{\textbar} FastAPI
+    \item \textbf{Certifications:} AWS Certified Cloud Practitioner \text{\textbar} CompTIA Security\verb!+! (SY0-701) \text{\textbar} TS/SCI Eligible Clearance \end{itemize}  
 
 %------------------------------------------------------------------------- 
 %------------------EXPERIENCE--------------------------------------------- 
@@ -76,31 +76,29 @@ Senior DevSecOps Engineer \& Engineering Manager with 8+ years in cloud-native s
 \section{Experience} 
 \begin{itemize}
     \itemsep0.2em
-    \item \textbf{Senior DevSecOps Engineer \& Engineering Manager}, Clarity Innovations, Columbia, MD\hfill 02/2024 - Present \\ \emph{ Technical lead and engineering manager; modernizing CI/CD pathways for DoD customer; cloud-agnostic deployments}
-    \vspace{-\topsep} \vspace{-1.0em}
+    \item \textbf{Senior DevSecOps Engineer \& Engineering Manager}, Clarity Innovations, Columbia, MD\hfill 02/2024 - Present \\ \emph{ Technical lead \& engineering manager for modernized CI/CD platform, serving DoD-wide, cloud-agnostic deployments}
     \begin{itemize}
         \itemsep0em
-        \item Architects security and IaC pipelines for DoD apps, click-button deployment to AWS, Azure, GCP, and OCI
-        \item Leads technical info sessions to 70+ end-users weekly on CICD platform adoption; resolves complex questions on pipelines and cloud deployment 
+        \item Architects sec-hardened CI/CD pipelines to enable 1-click deploys to AWS/Azure/GCP/OCI for 60 multi-env apps
+        \item Leads weekly technical sessions to 70\verb!+! end-users on CICD platform adoption, pipeline config, and cloud deployement
+        \item Designs and maintains IaC (Terraform \& Ansible) for reproducible, auditable multi-cloud environments
         \item Mentors engineers on DevSecOps best practices; leads technical interchanges for knowledge sharing \& development
-        \item Implements and maintains IaC (Terraform \& Ansible) for reproducible, auditable cloud environments
+        \item 2024 - Recognized with Award for Excellence in leadership, teamwork, and collaboration impact
     \end{itemize}
     
     \item \textbf{Senior DevSecOps Software Engineering Officer}, Kessel Run (U.S. Air Force), Boston, MA\hfill 06/2020 - 06/2024 \\ \emph{Led 12-member engineering team building mission-critical software serving 10K+ users, replacing a \$1.6B legacy system}
-    \vspace{-\topsep} \vspace{-1.0em}
     \begin{itemize}
         \itemsep0em
-        \item Drove organization's first Kubernetes adoption; established deployment patterns and training for 50+ engineers
+        \item Drove organization's first Kubernetes adoption; established deployment patterns and training for 50\verb!+! engineers
         \item Built event-sourced data syncing system across 10 deployment environments, eliminating data corruption issues
         \item Delivered technical talks on blue/green deployment strategies and maintainable software upgrade patterns
         \item Hand-picked for rapid outage response team; reduced average restore time to $<$90 mins, cutting downtime by 72\%
     \end{itemize}
     
     \item \textbf{Developmental Engineering Lead Officer}, U.S. Air Force, Los Angeles, CA\hfill 07/2016 - 06/2020 \\ \emph{GPS Integrated Circuit and Satellite Communication Systems Engineering Lead}
-    \vspace{-\topsep} \vspace{0.2em}
     \begin{itemize}
         \itemsep0em
-        \item Led 10-member HW \& SW dev team for next-gen ASIC for GPS air/land/sea, balanced 500+ requirements
+        \item Led 10-member HW \& SW dev team for next-gen ASIC for GPS air/land/sea, balanced 500\verb!+! requirements
         \item Managed tech risk, schedule, and performance for GPS receiver spec docs supporting \$1.8B request for quotes
         \item Technical lead and assessor for long-lead (2040) \$30M high-bandwidth satellite communication experiments
     \end{itemize}
@@ -129,9 +127,10 @@ Senior DevSecOps Engineer \& Engineering Manager with 8+ years in cloud-native s
     \vspace{-\topsep} \vspace{0.2em}
     \begin{itemize}
         \itemsep0em
-        \item Miasma -- Privacy Protection Platform (Python, React, FastAPI, PostgreSQL, Redis, Docker, GitHub Actions)
+        \item MLOps Model Platform -- Production ML serving on self-hosted k3s with FastAPI, MLflow, Prometheus/Grafana monitoring with load-tested baselines, and full CI/CD via GitHub Actions -- lint, test, multi-arch Docker builds (amd64/arm64), gated production deploy (Python, Kubernetes, Docker, AWS)
+        \item Miasma -- Privacy protection platform with web scraping, campaign management, and automated data injection (Python, React, FastAPI, PostgreSQL, Redis, Docker, GitHub Actions)
         \item Reddit Translation Bot (Python, Telegram API, Google Translate API) -- Cloud-deployed on Heroku
-        \item Liquid Rocket Thrust Vectoring Firmware -- Senior Capstone (C, Python) -- BU ECE Design Excellence Award
+        \item Liquid Rocket Thrust Vectoring Firmware -- Senior capstone; built \& integrated multi-threaded firmware to handle I/O telemetry data and gimbal rocket engine (C, Python) -- BU ECE Design Excellence Award
     \end{itemize} \end{itemize} 
 
 %-------------------------------------------------------------------------
