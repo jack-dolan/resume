@@ -29,7 +29,7 @@ cloud-native systems, platform engineering, and leadership:
         deploys to AWS/Azure/GCP/OCI for 60 multi-env apps
 
     -   Leads weekly technical sessions to 70`+` end-users on CICD
-        platform adoption, pipeline config, and cloud deployement
+        platform adoption, pipeline config, and cloud deployment
 
     -   Designs and maintains IaC (Terraform & Ansible) for
         reproducible, auditable multi-cloud environments
@@ -40,10 +40,13 @@ cloud-native systems, platform engineering, and leadership:
     -   2024 - Recognized with Award for Excellence in leadership,
         teamwork, and collaboration impact
 
--   **Senior DevSecOps Software Engineering Officer**, Kessel Run (U.S.
+-   **Senior DevSecOps & Full-Stack Software Engineer**, Kessel Run (U.S.
     Air Force), Boston, MA06/2020 - 06/2024\
     *Led 12-member engineering team building mission-critical software
     serving 10K+ users, replacing a \$1.6B legacy system*
+
+    -  Tech lead on 4 teams; owned roadmap prioritization, task
+        assignment, and stakeholder communication
 
     -   Drove organization's first Kubernetes adoption; established
         deployment patterns and training for 50`+` engineers
