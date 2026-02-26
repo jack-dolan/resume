@@ -4,10 +4,10 @@ Boston, MA (203) 560-1717 $|$ github.com/jack-dolan
 
 # Summary
 
-Senior DevSecOps Engineer & Engineering Manager; 8`+` years in
+Senior DevSecOps Engineer & Engineering Manager; 8+ years in
 cloud-native systems, platform engineering, and leadership:
 
--   **Languages:** Python Java TypeScript Go SQL C`++`
+-   **Languages:** Python Java TypeScript Go SQL C++
 
 -   **Infrastructure:** Kubernetes Docker AWS (ECS, RDS, S3) Ansible
     Terraform GitLab CI/CD GitHub Actions
@@ -16,7 +16,7 @@ cloud-native systems, platform engineering, and leadership:
     Vision NLP MLFlow FastAPI
 
 -   **Certifications:** AWS Certified Cloud Practitioner CompTIA
-    Security`+` (SY0-701) TS/SCI Eligible Clearance
+    Security+ (SY0-701) TS/SCI Eligible Clearance
 
 # Experience
 
@@ -28,7 +28,7 @@ cloud-native systems, platform engineering, and leadership:
     -   Architects sec-hardened CI/CD pipelines to enable 1-click
         deploys to AWS/Azure/GCP/OCI for 60 multi-env apps
 
-    -   Leads weekly technical sessions to 70`+` end-users on CICD
+    -   Leads weekly technical sessions to 70+ end-users on CICD
         platform adoption, pipeline config, and cloud deployment
 
     -   Designs and maintains IaC (Terraform & Ansible) for
@@ -49,7 +49,7 @@ cloud-native systems, platform engineering, and leadership:
         assignment, and stakeholder communication
 
     -   Drove organization's first Kubernetes adoption; established
-        deployment patterns and training for 50`+` engineers
+        deployment patterns and training for 50+ engineers
 
     -   Built event-sourced data syncing system across 10 deployment
         environments, eliminating data corruption issues
@@ -58,7 +58,7 @@ cloud-native systems, platform engineering, and leadership:
         and maintainable software upgrade patterns
 
     -   Hand-picked for rapid outage response team; reduced average
-        restore time to $<$`<!-- -->`{=html}90 mins, cutting downtime by
+        restore time to <90 mins, cutting downtime by
         72%
 
 -   **Developmental Engineering Lead Officer**, U.S. Air Force, Los
@@ -67,10 +67,10 @@ cloud-native systems, platform engineering, and leadership:
     Engineering Lead*
 
     -   Led 10-member HW & SW dev team for next-gen ASIC for GPS
-        air/land/sea, balanced 500`+` requirements
+        air/land/sea, balanced 500+ requirements
 
     -   Managed tech risk, schedule, and performance for GPS receiver
-        spec docs supporting \$1.8B request for quotes
+        spec docs supporting $1.8B request for quotes
 
     -   Technical lead and assessor for long-lead (2040) \$30M
         high-bandwidth satellite communication experiments
