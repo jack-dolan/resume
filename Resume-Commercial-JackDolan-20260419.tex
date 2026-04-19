@@ -1,0 +1,145 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+%%%%%%%_SETUP_%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+
+%------------------------------------------------------------------------- 
+
+\documentclass[10pt]{extarticle}
+\usepackage{titlesec} 
+\usepackage{titling} 
+\usepackage{amsmath} 
+\usepackage[margin=0.2in]{geometry}
+
+\renewcommand{\labelitemii}{$\circ$}
+\renewcommand{\labelitemiii}{$\diamond$}
+ 
+\titleformat{\section}{\Large\bfseries}{}{0em}{}[\titlerule] 
+
+\titleformat{\subsection}[runin] 
+{\bfseries}{}{0em}{} 
+\titlespacing{\subsection} 
+{0.2em}{0.4em}{0.5em} 
+\titlespacing{\section} 
+{0.2em}{0.2em}{0.2em} 
+
+\titleformat{\subsubsection}[runin]
+{\bfseries}{}{0em}{}
+
+ 
+%------------------------------------------------------------------------- 
+%------------------MAKETITLE RE-DEFINITION-------------------------------- 
+%------------------------------------------------------------------------- 
+
+\renewcommand{\maketitle}{ 
+{\huge\bfseries\theauthor}\hfill jack@dolanjack.com $|$ linkedin.com/in/jack-dolan2
+
+\vspace{0.2em} 
+
+Boston, MA \hfill (203) 560-1717 $|$ github.com/jack-dolan
+}
+
+%------------------------------------------------------------------------- 
+%------------------BULLET SIZE RE-DEFINITION------------------------------ 
+%------------------------------------------------------------------------- 
+
+\renewcommand{\labelitemi}{$\vcenter{\hbox{\tiny$\bullet$}}$} 
+
+%------------------------------------------------------------------------- 
+%------------------BEGIN DOC---------------------------------------------- 
+%------------------------------------------------------------------------- 
+
+\begin{document} 
+\title{R\'esum\'e} 
+\author{Jack Dolan} 
+\maketitle
+\pagenumbering{gobble}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+%%%%%%%_CONTENT_%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+%------------------------------------------------------------------------- 
+%------------------SUMMARY------------------------------------------------ 
+%------------------------------------------------------------------------- 
+
+\section{Summary}
+\hspace*{-0.4cm}Senior engineer \& technical lead; 8\verb!+! years in full-stack development, platform engineering, and customer enablement:
+    \begin{itemize}
+    \itemsep0em
+    \item \textbf{Languages:} Python \text{\textbar} Java \text{\textbar} TypeScript \text{\textbar} Go \text{\textbar} SQL \text{\textbar} C\verb!++!
+    \item \textbf{Platform/Cloud:} Kubernetes \text{\textbar} Docker \text{\textbar} AWS \text{\textbar} Azure \text{\textbar} GCP \text{\textbar} Ansible \text{\textbar} Terraform \text{\textbar} GitLab CI/CD \text{\textbar} GitHub Actions
+    \item \textbf{Full-Stack:} React \text{\textbar} Node.js \text{\textbar} PostgreSQL \text{\textbar} Redis \text{\textbar} REST/gRPC \text{\textbar} Protocol Buffers \text{\textbar} RabbitMQ
+    \item \textbf{LLM \& Applied AI:} Claude/OpenAI APIs \text{\textbar} MCP Integration \text{\textbar} Prompt Engineering \text{\textbar} RAG Patterns \text{\textbar} Eval Design
+    \item \textbf{ML/Data:} TensorFlow \text{\textbar} PyTorch \text{\textbar} Scikit-Learn \text{\textbar} NumPy \text{\textbar} Pandas \text{\textbar} Computer Vision \text{\textbar} NLP \text{\textbar} FastAPI / MLFlow Serving
+    \item \textbf{Certifications:} AWS Certified Cloud Practitioner \text{\textbar} CompTIA Security\verb!+! (SY0-701) \end{itemize}  
+
+%------------------------------------------------------------------------- 
+%------------------EXPERIENCE--------------------------------------------- 
+%------------------------------------------------------------------------- 
+
+\section{Experience} 
+\begin{itemize}
+    \itemsep0.2em
+    \item \textbf{Senior Engineering Lead}, Clarity Innovations, Columbia, MD\hfill 02/2024 - Present \\ \emph{ Technical lead \& manager for cloud-agnostic CI/CD platform serving 100+ software teams across AWS/Azure/GCP/OCI}
+    \begin{itemize}
+        \itemsep0em
+        \item Leads customer enablement for 100\verb!+! engineering teams: weekly technical sessions with 70\verb!+! attendees, processing 80-150 issues per 2-week sprint with SLAs, self-service docs and video library adopted across the customer base
+        \item Architects secure-by-default CI/CD pipelines to enable 1-click deploys to AWS/Azure/GCP/OCI for 60\verb!+! multi-env apps; established org's first auto-scaled runner pattern, immediate upscale without disrupting existing workflows
+        \item Designs and maintains IaC (Terraform \& Ansible) for reproducible, auditable multi-cloud environments
+        \item Mentors engineers on DevSecOps best practices; leads technical interchanges for knowledge sharing \& development
+        \item 2024 - Recognized with Award for Excellence in leadership, teamwork, and collaboration impact
+    \end{itemize}
+    
+    \item \textbf{Senior Full-Stack Software Engineer \& Tech Lead}, Kessel Run (U.S. Air Force), Boston, MA\hfill 06/2020 - 06/2024 \\ \emph{Led 12-member eng team; full-stack development on mission-critical software for 10K+ users, replacing \$1.6B legacy system}
+    \begin{itemize}
+        \itemsep0em
+        \item Tech lead on 4 teams; owned roadmap prioritization, task assignment, and stakeholder communication
+        \item Designed and shipped an event-streaming platform (Protocol Buffers, RabbitMQ) processing 10-15k events/day across 15 app teams (100 engineers); introduced rehydration mechanism for full state recovery for any downstream consumer
+        \item Drove organization's first Kubernetes adoption; established deployment patterns and training for 50\verb!+! engineers
+        \item Deployed forward as Liaison Officer to Al Udeid Air Base, Qatar; served as single on-site technical contact for operational users, collected \& mediated feedback between users and product teams back home 
+        \item Hand-picked for rapid outage response team; reduced average restore time to $<$90 mins, cutting downtime by 72\%
+    \end{itemize}
+    
+    \item \textbf{Developmental Engineering Lead Officer}, U.S. Air Force, Los Angeles, CA\hfill 07/2016 - 06/2020 \\ \emph{GPS Integrated Circuit and Satellite Communication Systems Engineering Lead}
+    \begin{itemize}
+        \itemsep0em
+        \item Hardware and software engineering lead on GPS integrated circuit and satellite communication programs; led 10-engineer teams, balanced 500\verb!+! requirements, and supported \$1.8B in program engineering definition.
+    \end{itemize}
+    
+    \end{itemize} 
+
+%------------------------------------------------------------------------- 
+%------------------EDUCATION---------------------------------------------- 
+%------------------------------------------------------------------------- 
+
+\section{Education} \begin{itemize}
+    \itemsep0.2em
+    \item \textbf{Master of Science, Computer Science}, Specialization in Machine Learning \hfill 05/2019 - 11/2022\\Georgia Institute of Technology, Atlanta, GA, GPA: 4.0
+    \item \textbf{Bachelor of Science, Computer Engineering} \hfill 09/2012 - 05/2016\\Boston University, Boston, MA  \end{itemize} 
+
+%------------------------------------------------------------------------- 
+%------------------ADDITIONAL INFO=---------------------------------------------- 
+%------------------------------------------------------------------------- 
+
+\section{Additional Information} 
+\begin{itemize}
+    \itemsep0.2em
+    \item \textbf{Awards: }
+    \vspace{-\topsep} \vspace{0.2em}
+    \begin{itemize}
+        \itemsep0em
+        \item Officer/Engineer of the Year: 2022, 2021, 2020, 2019; Academic Excellence: 2013, 2016
+        \item BU ECE Design Excellence Award (Liquid Rocket Thrust Vectoring Firmware)
+    \end{itemize}
+    \item \textbf{Projects: }
+    \vspace{-\topsep} \vspace{0.2em}
+    \begin{itemize}
+        \itemsep0em
+        \item MLOps Model Platform -- Production ML serving on self-hosted k3s with FastAPI, MLflow, Prometheus/Grafana monitoring with load-tested baselines, and full CI/CD via GitHub Actions -- lint, test, multi-arch Docker builds (amd64/arm64), gated production deploy (Python, Kubernetes, Docker, AWS)
+        \item Launchpad -- OpenAI Codex-powered project scaffolding tool; app to demo LLM  pair programming (Codex-CLI) with calls to Codex MCP server for live code regeneration in-flight -- e-commerce storefront generation within the app
+        \item Miasma -- Privacy protection platform with web scraping, campaign management, and automated data injection (Python, React, FastAPI, PostgreSQL, Redis, Docker, GitHub Actions)
+        \item Reddit Translation Bot (Python, Telegram API, Google Translate API) -- Cloud-deployed on Heroku
+    \end{itemize} \end{itemize} 
+
+%-------------------------------------------------------------------------
+
+\end{document}
